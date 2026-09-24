@@ -2,7 +2,7 @@
 
 I build software by directing a studio of AI coding agents. I set the rules the product lives
 by, write the brief for each job, and review every screen before it ships. Agents write the
-code; a second agent, a large test suite, and a real-browser rehearsal check it; I sign off.
+code; a second agent, a large test suite, and a browser rehearsal check it.
 
 My main project is **Gather**, a church and district platform: kids' check-in and checkout,
 serving teams, events, payments with every fee shown, messages, and a district view over

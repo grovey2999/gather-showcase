@@ -14,8 +14,7 @@ separate products.
 ## One app, four levels
 
 Family, church, district, national. A parent sees their own kids. A leader sees their group.
-A pastor sees their church. The district office sees every church in the district. Everyone
-signs in to the same app and lands on the same Home, which changes with who they are.
+A pastor sees their church. The district office sees every church in the district.
 
 ## What it does today
 
@@ -47,8 +46,6 @@ signs in to the same app and lands on the same Home, which changes with who they
   stop-on-failure.
 - **Registry-driven ministries.** A ministry is rows of data (words, colors, emblems). Adding
   one is a checklist and a conformance test, not a copied page.
-- **One layout frame.** Every page renders on the server through one shared frame, so menus
-  and back links behave the same on every screen and phone width.
 - **Tests plus a browser rehearsal harness.** A large suite on Node's built-in test runner,
   and a harness that drives a real browser through whole event weekends and captures what
   each person actually sees.
@@ -65,7 +62,7 @@ signs in to the same app and lands on the same Home, which changes with who they
 ## Safety measures
 
 The app holds children's names, medical notes, and family payments, so safety was the first
-design constraint. In short:
+design constraint:
 
 - **Medical and incident notes are encrypted per record** (AES-256-GCM envelope encryption,
   per-district keys, key versioning and rotation).
